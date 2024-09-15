@@ -1,0 +1,33 @@
+{
+  "test": {
+      "table_page": {
+          "add_user": [
+                          [
+                              {
+                                "firstname":"Afsal_Add",
+                                "lastname": "kh",
+                                "username": "afsalkh",
+                                "password": "password123",
+                                "customer": "Company BBB",
+                                "role": "Customer",
+                                "email": "afsalkh@temp.com",
+                                "phone": "9898767698"
+                              }, true
+                          ]
+          ],
+
+          "delete_user": [
+                            [
+                              "novak", true
+                            ]
+          ]
+      }
+  },
+
+  "prod": {
+    "table_page": {
+      "add_user": [["user1"]],
+      "delete_user": [["user1"]]
+    }
+  }
+}
